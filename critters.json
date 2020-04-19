@@ -1,0 +1,834 @@
+{
+    "fish": [
+     
+       {
+          "name":"Anchovy",
+          "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-anchovy.png",
+          "price": "200",
+          "location": "Sea",
+          "shadowsize": "2",
+          "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21"],
+          "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+          "rarity": "fairly uncommon"
+
+       },
+       
+       {
+          "name":"Angelfish",
+          "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-angelfish.png",
+          "price": "3000",
+          "location": "River",
+          "shadowsize": "2",
+          "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+          "month": ["May","Jun","Jul","Aug","Sep","Oct"],
+          "rarity": "uncommon"
+       },
+       
+       {
+        "name":"Arapaima",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Icon-arapaima.png",
+        "price": "10000",
+        "location": "River",
+        "shadowsize": "6",
+        "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21"],
+        "month": ["Jun","Jul","Aug","Sep"],
+        "rarity": "rare"
+       },
+       
+       {
+        "name":"Arowana",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bf/NH-Icon-arowana.png",
+        "price": "10000",
+        "location": "River",
+        "shadowsize": "4",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Jun","Jul","Aug","Sep"],
+        "rarity": "rare"
+       },
+       
+       {
+        "name":"Barred Knifejaw",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8c/NH-Icon-barredknifejaw.png",
+        "price": "5000",
+        "location": "Sea",
+        "shadowsize": "3",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov"],
+        "rarity": "rare" 
+
+       },
+       {
+        "name":"Barreleye",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Icon-barreleye.png",
+        "price": "15000",
+        "location": "Sea",
+        "shadowsize": "2",
+        "time": ["21","22","23","24","01","02","03","04"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "scarce" 
+       },
+
+       {
+        "name":"Betta",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-betta.png",
+        "price": "2500",
+        "location": "River",
+        "shadowsize": "2",
+        "time": ["09","10","11","12","13","14","15","16"],
+        "month": ["May","Jun","Jul","Aug","Sept","Oct"],
+        "rarity": "unknown" 
+       },
+
+       {
+        "name":"Bitterling",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Icon-bitterling.png",
+        "price": "900",
+        "location": "River",
+        "shadowsize": "1",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Nov","Dec"],
+        "rarity": "common" 
+       },
+
+       {
+        "name":"Black Bass",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Icon-blackbass.png",
+        "price": "400",
+        "location": "River",
+        "shadowsize": "4",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "common"
+       },
+
+       {
+        "name":"Blowfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/39/NH-Icon-blowfish.png",
+        "price": "5000",
+        "location": "Sea",
+        "shadowsize": "3",
+        "time": ["21","22","23","24","01","02","03","04"],
+        "month": ["Jan","Feb","Nov","Dec"],
+        "rarity": "scarce"
+       },
+
+       {
+        "name":"Blue Marlin",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-bluemarlin.png",
+        "price": "10000",
+        "location": "Pier",
+        "shadowsize": "6",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","Jul","Aug","Sept","Nov","Dec"],
+        "rarity": "scarce" 
+       },
+
+       {
+        "name":"Bluegill",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Icon-bluegill.png",
+        "price": "180",
+        "location": "River",
+        "shadowsize": "2",
+        "time": ["09","10","11","12","13","14","15","16"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "uncommon" 
+       },
+
+       {
+        "name":"Butterfly Fish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Icon-butterflyfish.png",
+        "price": "1000",
+        "location": "Sea",
+        "shadowsize": "2",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Apr","May","Jun","Jul","Aug","Sept"],
+        "rarity": "uncommon" 
+       },
+
+       {
+        "name":"Carp",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-carp.png",
+        "price": "300",
+        "location": "Pond",
+        "shadowsize": "4",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "fairly common"
+       },
+       
+       {
+        "name":"Catfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/29/NH-Icon-catfish.png",
+        "price": "800",
+        "location": "Pond",
+        "shadowsize": "4",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["May","Jun","Jul","Aug","Sept","Oct"],
+        "rarity": "fairly common"
+       },
+
+       {
+        "name":"Char",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/15/NH-Icon-char.png",
+        "price": "3800",
+        "location": "Pond (Clifftop)",
+        "shadowsize": "3",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Mar","Apr","May","Jun","Sept","Oct","Nov"],
+        "rarity": "uncommon"
+       },
+
+       {
+        "name":"Cherry Salmon",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/NH-Icon-cherrysalmon.png",
+        "price": "800",
+        "location": "River (Clifftop)",
+        "shadowsize": "3",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Mar","Apr","May","Jun","Sept","Oct","Nov"],
+        "rarity": "uncommon"
+       },
+
+       {
+        "name":"Clown Fish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-clownfish.png",
+        "price": "650",
+        "location": "Sea",
+        "shadowsize": "1",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Apr","May","Jun","Jul","Aug","Sept"],
+        "rarity": "uncommon"
+       },
+
+       {
+        "name":"Coelacanth",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/31/NH-Icon-coelacanth.png",
+        "price": "15000",
+        "location": "Sea (Raining)",
+        "shadowsize": "6",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "very rare"
+       },
+
+       {
+        "name":"Crawfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cd/NH-Icon-crawfish.png",
+        "price": "200",
+        "location": "Pond",
+        "shadowsize": "2",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Apr","May","Jun","Jul","Aug","Sept"],
+        "rarity": "common"
+       },
+
+       {
+        "name":"Crucian Carp",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/NH-Icon-cruciancarp.png",
+        "price": "160",
+        "location": "River",
+        "shadowsize": "2",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "fairly common"
+       },
+
+       {
+        "name":"Dab",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c6/NH-Icon-dab.png",
+        "price": "300",
+        "location": "Sea",
+        "shadowsize": "3",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","Oct","Nov","Dec"],
+        "rarity": "fairly common" 
+       },
+
+       {
+        "name":"Dace",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-dace.png",
+        "price": "240",
+        "location": "River",
+        "shadowsize": "3",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "fairly common" 
+       },
+
+       {
+        "name":"Dorado",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/NH-Icon-dorado.png",
+        "price": "15000",
+        "location": "River",
+        "shadowsize": "5",
+        "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21"],
+        "month": ["Jun","Jul","Aug","Sept"],
+        "rarity": "rare" 
+       },
+
+       {
+        "name":"Football Fish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a5/NH-Icon-footballfish.png",
+        "price": "2500",
+        "location": "Sea",
+        "shadowsize": "4",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Jan","Feb","Mar","Nov","Dec"],
+        "rarity": "uncommon" 
+       },
+       {
+        "name":"Freshwater Goby",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ee/NH-Icon-freshwatergoby.png",
+        "price": "400",
+        "location": "River",
+        "shadowsize": "2",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "scarce" 
+       },
+       {
+        "name":"Frog",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/NH-Icon-frog.png",
+        "price": "120",
+        "location": "Pond",
+        "shadowsize": "2",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["May","Jun","Jul","Aug"],
+        "rarity": "common" 
+       },
+       {
+        "name":"Gar",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9f/NH-Icon-gar.png",
+        "price": "6000",
+        "location": "Pond",
+        "shadowsize": "5",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Jun","Jul","Aug","Sept"],
+        "rarity": "scarce" 
+       },
+       {
+        "name":"Giant Snakehead",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Icon-giantsnakehead.png",
+        "price": "5500",
+        "location": "Pond",
+        "shadowsize": "4",
+        "time": ["09","10","11","12","13","14","15","16"],
+        "month": ["Jun","Jul","Aug"],
+        "rarity": "uncommon" 
+       },
+       {
+        "name":"Giant Trevally",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-gianttrevally.png",
+        "price": "4500",
+        "location": "Pier",
+        "shadowsize": "5",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["May","Jun","Jul","Aug","Sept","Oct"],
+        "rarity": "scarce"  
+       },
+       {
+        "name":"Golden Trout",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Icon-goldentrout.png",
+        "price": "1500",
+        "location": "River (Clifftop)",
+        "shadowsize": "3",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Mar","Apr","May","Sept","Oct","Nov"],
+        "rarity": "unknown"  
+       },
+       {
+        "name":"Goldfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/NH-Icon-goldfish.png",
+        "price": "1300",
+        "location": "Pond",
+        "shadowsize": "1",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "scarce"  
+       },
+       {
+        "name":"Great White Shark",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/38/NH-Icon-greatwhiteshark.png",
+        "price": "15000",
+        "location": "Sea",
+        "shadowsize": "6 (Fin)",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Jun","Jul","Aug","Sept"],
+        "rarity": "rare"   
+       },
+       {
+        "name":"Guppy",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-guppy.png",
+        "price": "1300",
+        "location": "River",
+        "shadowsize": "1",
+        "time": ["09","10","11","12","13","14","15","16"],
+        "month": ["Apr","May","Jun","Jul","Aug","Sept","Oct","Nov"],
+        "rarity": "scarce" 
+       },
+       {
+        "name":"Hammerhead Shark",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/25/NH-Icon-hammerheadshark.png",
+        "price": "8000",
+        "location": "Sea",
+        "shadowsize": "6 (Fin)",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Jun","Jul","Aug","Sept"],
+        "rarity": "scarce"  
+       },
+       {
+        "name":"Horse Mackerel",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d5/NH-Icon-horsemackerel.png",
+        "price": "150",
+        "location": "Sea",
+        "shadowsize": "2",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "common" 
+       },
+       {
+        "name":"Killifish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-killifish.png",
+        "price": "300",
+        "location": "Pond",
+        "shadowsize": "1",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Apr","May","Jun","Jul","Aug"],
+        "rarity": "uncommon"  
+       },
+       {
+        "name":"King Salmom",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Icon-kingsalmon.png",
+        "price": "1800",
+        "location": "River (Mouth)",
+        "shadowsize": "6",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Sept"],
+        "rarity": "scarce"  
+       },
+       {
+        "name":"Koi",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/74/NH-Icon-koi.png",
+        "price": "4000",
+        "location": "Pond",
+        "shadowsize": "4",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "scarce" 
+       },
+       {
+        "name":"Loach",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/77/NH-Icon-loach.png",
+        "price": "400",
+        "location": "River",
+        "shadowsize": "2",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Mar","Apr","May"],
+        "rarity": "common" 
+       },
+       {
+        "name":"Mahi-Mahi",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-mahimahi.png",
+        "price": "6000",
+        "location": "Pier",
+        "shadowsize": "5",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["May","Jun","Jul","Aug","Sept","Oct"],
+        "rarity": "unknown" 
+       },
+       {
+        "name":"Mitten Crab",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Icon-mittencrab.png",
+        "price": "2000",
+        "location": "River",
+        "shadowsize": "2",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Sept","Oct","Nov"],
+        "rarity": "scarce"
+
+       },
+       {
+        "name":"Moray Eel",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Icon-morayeel.png",
+        "price": "2000",
+        "location": "Sea",
+        "shadowsize": "Narrow",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Aug","Sept","Oct"],
+        "rarity": "uncommon"
+       },
+       {
+        "name":"Napoleonfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/NH-Icon-napoleonfish.png",
+        "price": "10000",
+        "location": "Sea",
+        "shadowsize": "6",
+        "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21"],
+        "month": ["Jul","Aug"],
+        "rarity": "scarce"
+       },
+       {
+        "name":"Neon Tetra",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/da/NH-Icon-neontetra.png",
+        "price": "500",
+        "location": "River",
+        "shadowsize": "1",
+        "time": ["09","10","11","12","13","14","15","16"],
+        "month": ["Jul","Aug"],
+        "rarity": "uncommon"
+       },
+       {
+        "name":"Nibble Fish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/89/NH-Icon-nibblefish.png",
+        "price": "1500",
+        "location": "River",
+        "shadowsize": "1",
+        "time": ["09","10","11","12","13","14","15","16"],
+        "month": ["May","Jun","Jul","Aug","Sept"],
+        "rarity": "scarce"   
+       },
+       {
+        "name":"Oarfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Icon-oarfish.png",
+        "price": "9000",
+        "location": "Sea",
+        "shadowsize": "6",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","May","Dec"],
+        "rarity": "scarce" 
+       },
+       {
+        "name":"Ocean Sunfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Icon-oceansunfish.png",
+        "price": "4000",
+        "location": "Sea",
+        "shadowsize": "6 (Fin)",
+        "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21"],
+        "month": ["Jul","Aug","Sept"],
+        "rarity": "rare" 
+       },
+       {
+        "name":"Olive Flounder",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/NH-Icon-oliveflounder.png",
+        "price": "800",
+        "location": "Sea",
+        "shadowsize": "5",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "uncommon" 
+       },
+       {
+        "name":"Pale Chub",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-palechub.png",
+        "price": "200",
+        "location": "River",
+        "shadowsize": "1",
+        "time": ["09","10","11","12","13","14","15","16"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "uncommon" 
+       },
+       {
+        "name":"Pike",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-palechub.png",
+        "price": "1800",
+        "location": "River",
+        "shadowsize": "5",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Sept","Oct","Nov","Dec"],
+        "rarity": "uncommon" 
+       },
+       {
+        "name":"Piranha",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Icon-piranha.png",
+        "price": "2500",
+        "location": "River",
+        "shadowsize": "2",
+        "time": ["21","22","23","24","01","02","03","04", "09","10","11","12","13","14","15","16"],
+        "month": ["Jun","Jul","Aug","Sept"],
+        "rarity": "scarce" 
+       },
+       {
+        "name":"Pond smelt",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Icon-pondsmelt.png",
+        "price": "500",
+        "location": "River",
+        "shadowsize": "2",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Dec"],
+        "rarity": "common"
+       },
+       {
+        "name":"Pop-Eyed goldfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c9/NH-Icon-popeyedgoldfish.png",
+        "price": "1300",
+        "location": "Pond",
+        "shadowsize": "1",
+        "time": ["09","10","11","12","13","14","15","16"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "scarce"
+       },
+       {
+        "name":"Puffer Fish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/NH-Icon-pufferfish.png",
+        "price": "250",
+        "location": "Sea",
+        "shadowsize": "3",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jul","Aug","Sept"],
+        "rarity": "uncommon"
+       },
+       {
+        "name":"Rainbowfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/68/NH-Icon-rainbowfish.png",
+        "price": "800",
+        "location": "River",
+        "shadowsize": "1",
+        "time": ["09","10","11","12","13","14","15","16"],
+        "month": ["May","Jun","Jul","Aug","Sept","Oct"],
+        "rarity": "unknown"
+       },
+       {
+        "name":"Ranchu Goldfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/NH-Icon-ranchugoldfish.png",
+        "price": "4500",
+        "location": "Pond",
+        "shadowsize": "2",
+        "time": ["09","10","11","12","13","14","15","16"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "rare"
+       },
+       {
+        "name":"Ray",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/db/NH-Icon-ray.png",
+        "price": "3000",
+        "location": "Sea",
+        "shadowsize": "5",
+        "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21"],
+        "month": ["Aug","Sept","Oct","Nov"],
+        "rarity": "scarce"
+       },
+       {
+        "name":"Red snapper",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Icon-redsnapper.png",
+        "price": "3000",
+        "location": "Sea",
+        "shadowsize": "4",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "uncommon" 
+       },
+       {
+        "name":"Ribbon Eel",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ac/NH-Icon-ribboneel.png",
+        "price": "600",
+        "location": "Sea",
+        "shadowsize": "Narrow",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jun","Jul","Aug","Sept","Oct"],
+        "rarity": "uncommon" 
+       },
+       {
+        "name":"Saddled Bichir",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a0/NH-Icon-saddledbichir.png",
+        "price": "4000",
+        "location": "River",
+        "shadowsize": "4",
+        "time": ["21","22","23","24","01","02","03","04"],
+        "month": ["Jun","Jul","Aug","Sept"],
+        "rarity": "rare"  
+       },
+       {
+        "name":"Salmon",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fb/NH-Icon-salmon.png",
+        "price": "700",
+        "location": "River (Mouth)",
+        "shadowsize": "4",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Sept"],
+        "rarity": "common"  
+       },
+       {
+        "name":"Saw Shark",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/73/NH-Icon-sawshark.png",
+        "price": "12000",
+        "location": "Sea",
+        "shadowsize": "6 (Fin)",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Jun","Jul","Aug","Sept"],
+        "rarity": "scarce"  
+       },
+       {
+        "name":"Sea Bass",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-seabass.png",
+        "price": "400",
+        "location": "Sea",
+        "shadowsize": "5",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "rarity": "common"  
+       },
+       {
+        "name":"Sea Butterfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-seabutterfly.png",
+        "price": "1000",
+        "location": "Sea",
+        "shadowsize": "1",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Dec"],
+        "rarity": "uncommon" 
+       },
+       {
+        "name":"Sea Horse",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/NH-Icon-seahorse.png",
+        "price": "1100",
+        "location": "Sea",
+        "shadowsize": "1",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Apr","May","Jun","Jul","Aug","Sept","Oct","Nov"],
+        "rarity": "uncommon"  
+       },
+       {
+        "name":"Snapping Turtle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-snappingturtle.png",
+        "price": "5000",
+        "location": "River",
+        "shadowsize": "4",
+        "time": ["21","22","23","24","01","02","03","04"],
+        "month": ["Apr","May","Jun","Jul","Aug","Sept","Oct"],
+        "rarity": "uncommon" 
+       },
+       {
+        "name":"Soft-shelled Turtle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-softshelledturtle.png",
+        "price": "3750",
+        "location": "River",
+        "shadowsize": "4",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Aug","Sept"],
+        "rarity": "scarce"   
+       },
+       {
+        "name":"Squid",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3b/NH-Icon-squid.png",
+        "price": "500",
+        "location": "Sea",
+        "shadowsize": "3",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Dec"],
+        "rarity": "uncommon"   
+       },
+       {
+        "name":"Stringfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-stringfish.png",
+        "price": "15000",
+        "location": "River (Clifftop)",
+        "shadowsize": "5",
+        "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
+        "month": ["Jan","Feb","Mar","Dec"],
+        "rarity": "rare"     
+       },
+       {
+        "name":"Sturgeon",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/98/NH-Icon-sturgeon.png",
+        "price": "10000",
+        "location": "River (Mouth)",
+        "shadowsize": "6",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Sept","Oct","Nov","Dec"],
+        "rarity": "scarce"  
+       },
+       {
+        "name":"Suckerfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Icon-suckerfish.png",
+        "price": "1500",
+        "location": "Sea",
+        "shadowsize": "4 (Fin)",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jun","Jul","Aug","Sept"],
+        "rarity": "uncommon"  
+       },
+       {
+        "name":"Surgeonfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/NH-Icon-surgeonfish.png",
+        "price": "1000",
+        "location": "Sea",
+        "shadowsize": "2",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Apr","May","Jun","Jul","Aug","Sept"],
+        "rarity": "uncommon" 
+       },
+       {
+        "name":"Sweetfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/40/NH-Icon-sweetfish.png",
+        "price": "900",
+        "location": "River",
+        "shadowsize": "3",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jul","Aug","Sept"],
+        "rarity": "fairly common" 
+       },
+       {
+        "name":"Tadpole",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-tadpole.png",
+        "price": "100",
+        "location": "Pond",
+        "shadowsize": "1",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul"],
+        "rarity": "common" 
+       },
+       {
+        "name":"Tilapia",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/53/NH-Icon-tilapia.png",
+        "price": "800",
+        "location": "River",
+        "shadowsize": "3",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jun","Jul","Aug","Sept","Oct"],
+        "rarity": "unknown" 
+       },
+       {
+        "name":"Tuna",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/50/NH-Icon-tuna.png",
+        "price": "7000",
+        "location": "Pier",
+        "shadowsize": "6",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Apr","Nov","Dec"],
+        "rarity": "scarce"  
+       },
+       {
+        "name":"Whale Shark",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-whaleshark.png",
+        "price": "13000",
+        "location": "Sea",
+        "shadowsize": "6 (Fin)",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jun","Jul","Aug","Sept"],
+        "rarity": "scarce"
+       },
+       {
+        "name":"Yellow Perch",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1d/NH-Icon-yellowperch.png",
+        "price": "300",
+        "location": "River",
+        "shadowsize": "3",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Jan","Feb","Mar","Oct","Nov","Dec"],
+        "rarity": "fairly common"  
+       },
+       {
+        "name":"Zebra Turkeyfish",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-zebraturkeyfish.png",
+        "price": "500",
+        "location": "Sea",
+        "shadowsize": "3",
+        "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+        "month": ["Apr","May","Jun","Jul","Aug","Sept","Oct","Nov"],
+        "rarity": "common" 
+       }
+
+       
+       
+    ]
+ }
