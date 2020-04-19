@@ -97,8 +97,7 @@ $.ajax({
             '<td>' + value.location +
             '</td>' + '<td>' +
             value.shadowsize + '</td>' +
-            '<td>' + value.rarity +
-            '</td></tr>';
+            '<td>' + value.rarity +'</td></tr>';
           $(tblRow).appendTo('#userdata tbody');
         }
       });
