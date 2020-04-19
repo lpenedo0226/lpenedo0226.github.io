@@ -38,11 +38,11 @@
       th:active {
         background-color: gray !important;
       }
-      .table td.fit, 
-.table th.fit {
-    white-space: nowrap;
-    width: 1%;
-}
+      .table td.fit,
+      .table th.fit {
+        white-space: nowrap;
+        width: 1%;
+      }
     </style>
   </head>
 
@@ -50,22 +50,32 @@
     <div class="jumbotron">
       <h1>Live Bug Map - Northern Hemisphere</h1>
       <h2>Current time: <label id="currentdate"></label></h2>
-      
+
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="nhcritters_f.html">Northern Fish</a>
+            <a class="nav-item nav-link" href="nhcritters_f.html"
+              >Northern Fish</a
+            >
             <a class="nav-item nav-link" href="#">Northern Bugs</a>
             <a class="nav-item nav-link" href="#">Southern Fish</a>
             <a class="nav-item nav-link" href="#">Southern Bugs</a>
           </div>
         </div>
       </nav>
-      </div>
+    </div>
 
     <div class="container-sm">
       <h3>Currently Available:</h3>
@@ -78,12 +88,9 @@
           <th>Image</th>
           <th>Price</th>
           <th onclick="sortTable(3)">Location</th>
-          <th onclick="sortTable(4)">Shadow Size (Out of 6)</th>
-          <th onclick="sortTable(5)">Rarity</th>
         </thead>
         <tbody></tbody>
       </table>
     </div>
   </body>
 </html>
-

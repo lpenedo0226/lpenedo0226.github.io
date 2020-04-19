@@ -98,6 +98,7 @@ $.ajax({
     $(data.fish).each(function (index, value) {
       if (value.time.indexOf(h) > -1 && value.month.indexOf(sMonth) > -1) {
         console.log(value.name);
+        var iPrice = Number(value.price);
         var tblRow =
           '<tr>' +
           '<td>' +
@@ -107,7 +108,7 @@ $.ajax({
           value.image +
           '></td>' +
           '<td>' +
-          value.price +
+          iPrice +
           '</td>' +
           '<td>' +
           value.location +
