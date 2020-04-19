@@ -98,9 +98,11 @@ $.ajax({
             '</td>' + '<td>' +
             value.shadowsize + '</td>' +
             '<td>' + value.rarity +
-            '</td>' + '<td>' + value.month + '</td> </tr>';
+            '</td></tr>';
           $(tblRow).appendTo('#userdata tbody');
         }
       });
     },
   });
+
+ 
