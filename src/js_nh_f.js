@@ -101,7 +101,7 @@ $.ajax({
         var iPrice = Number(value.price);
         var tblRow =
           '<tr>' +
-          '<td>' +
+          '<td scope="row">' +
           value.name +
           '</td>' +
           '<td> <img src=' +
