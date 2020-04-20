@@ -115,9 +115,6 @@ $.ajax({
           '</td>' +
           '<td>' +
           value.shadowsize +
-          '</td>' +
-          '<td>' +
-          value.rarity +
           '</td></tr>';
         $(tblRow).appendTo('#userdata tbody');
       }

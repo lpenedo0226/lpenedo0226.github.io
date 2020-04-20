@@ -17,7 +17,7 @@
   <body>
     <div class="jumbotron">
       <h1 class="display-4">Live Fish Map - Northern Hemisphere</h1>
-      <hr class="my-4">
+      <hr class="my-4" />
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Home</a>
@@ -50,30 +50,51 @@
       <h4 class="text-left">
         Fish Available At Time: <label id="currentdate"></label>
       </h4>
-      
+
       <hr />
-      <a class="btn btn-primary btn-lg btn-block" href="nhcritters_f.html" role="button">Refresh</a>
+      <a
+        class="btn btn-primary btn-lg btn-block"
+        href="nhcritters_f.html"
+        role="button"
+        >Refresh</a
+      >
       <hr />
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
-        
-        
-        <label class="btn btn-secondary mr-1 disabled">
-          <input type="radio" name="options" id="option0"> Sort:
-        </label>
         <label class="btn btn-secondary mr-1 active">
-          <input type="radio" name="options" id="option1" onclick="sortTable(0)"> Name
+          <input
+            type="radio"
+            name="options"
+            id="option1"
+            onclick="sortTable(0)"
+          />
+          Name
         </label>
         <label class="btn btn-secondary mr-1">
-          <input type="radio" name="options" id="option2" onclick="sortTable(2)"> Price
+          <input
+            type="radio"
+            name="options"
+            id="option2"
+            onclick="sortTable(2)"
+          />
+          Price
         </label>
         <label class="btn btn-secondary mr-1">
-          <input type="radio" name="options" id="option3"  onclick="sortTable(3)"> Location
+          <input
+            type="radio"
+            name="options"
+            id="option3"
+            onclick="sortTable(3)"
+          />
+          Location
         </label>
         <label class="btn btn-secondary mr-1">
-          <input type="radio" name="options" id="option4" onclick="sortTable(4)"> Shadow Size
-        </label>
-        <label class="btn btn-secondary mr-1">
-          <input type="radio" name="options" id="option5" onclick="sortTable(5)"> Rarity
+          <input
+            type="radio"
+            name="options"
+            id="option4"
+            onclick="sortTable(4)"
+          />
+          Shadow Size
         </label>
       </div>
       <hr />
@@ -94,9 +115,6 @@
             </th>
             <th scope="col">
               Shadow Size
-            </th>
-            <th scope="col">
-              Rarity
             </th>
           </tr>
         </thead>
