@@ -1202,7 +1202,7 @@
         "location": "River",
         "shadowsize": "1",
         "time": ["09","10","11","12","13","14","15","16"],
-        "month": ["Jul","Aug"],
+        "month": ["Apr","May","Jun","Jul","Aug","Sept","Oct","Nov"],
         "rarity": "uncommon"
        },
        {
@@ -1276,7 +1276,7 @@
         "rarity": "scarce" 
        },
        {
-        "name":"Pond smelt",
+        "name":"Pond Smelt",
         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Icon-pondsmelt.png",
         "price": "500",
         "location": "River",

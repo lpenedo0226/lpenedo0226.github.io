@@ -70,7 +70,7 @@ $.ajax({
         sMonth = 'Aug';
         break;
       case 9:
-        sMonth = 'Sep';
+        sMonth = 'Sept';
         break;
       case 10:
         sMonth = 'Oct';
