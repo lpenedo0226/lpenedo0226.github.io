@@ -106,7 +106,7 @@ $.ajax({
           '</td>' +
           '<td> <img src=' +
           value.image +
-          ' class="img-fluid" alt="Responsive image"></td>' +
+          ' class="img-fluid" alt="responsive image"></td>' +
           '<td>' +
           iPrice +
           '</td>' +
