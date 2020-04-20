@@ -5,22 +5,10 @@ $.ajax({
   cache: false,
   success: function (data) {
     var d = new Date();
-    var localdate =
-      d.getMonth() +
-      1 +
-      '/' +
-      d.getDate() +
-      '/' +
-      d.getFullYear() +
-      ' ' +
-      d.getHours() +
-      ':' +
-      d.getMinutes();
-    var c = JSON.stringify(localdate);
-    console.log(localdate);
-    $('#currentdate').text(c);
+   
+        
     var h = JSON.stringify(d.getHours());
-    console.log(h);
+    //console.log(h);
     switch (h) {
       case '1':
         h = '01';
@@ -50,9 +38,9 @@ $.ajax({
         h = '09';
         break;
     }
-    console.log(h);
+    //console.log(h);
     var m = d.getMonth() + 1;
-    console.log(m);
+    //console.log(m);
 
     var sMonth;
     switch (m) {
@@ -93,11 +81,11 @@ $.ajax({
         sMonth = 'Dec';
         break;
     }
-    console.log(sMonth);
+    //console.log(sMonth);
 
     $(data.bugs).each(function (index, value) {
       if (value.time.indexOf(h) > -1 && value.month.indexOf(sMonth) > -1) {
-        console.log(value.name);
+        //console.log(value.name);
         var tblRow =
           '<tr>' +
           '<td>' +

@@ -5,18 +5,7 @@ $.ajax({
   cache: false,
   success: function (data) {
     var d = new Date();
-    var localdate =
-      d.getMonth() +
-      1 +
-      '/' +
-      d.getDate() +
-      '/' +
-      d.getFullYear() +
-      ' ' +
-      d.getHours() +
-      ':' +
-      d.getMinutes();
-    var c = JSON.stringify(localdate);
+    
     // console.log(localdate); *debugging
     
     var h = JSON.stringify(d.getHours());

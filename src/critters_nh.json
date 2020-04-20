@@ -6,7 +6,7 @@
          "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Icon-agriasbutterfly.png",
          "price": "3000",
          "location": "Flying",
-         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
          "month": ["Apr","May","Jun","Jul","Aug","Sept"],
          "rarity":"scarce"
       },
@@ -25,7 +25,7 @@
          "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Icon-atlasmoth.png",
          "price": "3000",
          "location": "On Trees",
-         "time": ["07","08","09","10","11","12","13","14","15","16"],
+         "time": ["19","20","21","22","23","24","01","02","03","04"],
          "month": ["Apr","May","Jun","Jul","Aug","Sept"],
          "rarity":"fairly common"
       },
@@ -80,7 +80,7 @@
          "price": "300",
          "location": "Hitting Rocks",
          "time": ["16","17","18","19","20","21","22","23"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Nov","Dec"],
          "rarity":"scarce"
       },
       {
@@ -260,7 +260,7 @@
          "price": "2000",
          "location": "On Ponds and Rivers",
          "time": ["19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Apr","May","Jun","Jul","Aug","Sept"],
          "rarity":"common"  
       },
       {
