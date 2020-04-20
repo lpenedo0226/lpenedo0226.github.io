@@ -1,55 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-    
-
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
   </head>
- 
+
   <body>
     <div class="jumbotron">
-      <h1>Live Bug Map - Northern Hemisphere</h1>
-      <h2>Current time: <label id="currentdate"></label></h2>
-      
+      <h1 class="display-4">Live Bug Map</h1>
+      <p class="lead">Northern Hemisphere</p>
+      <hr class="my-4" />
+
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html">Critters</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="nhcritters_f.html">Northern Fish</a>
+            <a class="nav-item nav-link" href="nhcritters_f.html"
+              >Northern Fish</a
+            >
             <a class="nav-item nav-link" href="#">Northern Bugs</a>
             <a class="nav-item nav-link" href="#">Southern Fish</a>
             <a class="nav-item nav-link" href="#">Southern Bugs</a>
           </div>
         </div>
       </nav>
-      </div>
+    </div>
 
-    <div class="container-sm">
-      <h3>Currently Available:</h3>
-      <table
-        class="table-sm table-responsive table-striped header-fixed text-center font-weight-bold"
-        id="userdata"
+    <div class="container">
+      <hr />
+      <h3 class="text-left col">
+        Bugs Available Now: <span id="currentdate"></span>
+      </h3>
+
+      <hr />
+      <a
+        class="btn btn-primary btn-lg btn-block"
+        href="nhcritters_b.html"
+        role="button"
+        >Refresh</a
       >
-        <thead>
-          <th onclick="sortTable(0)">Name</th>
-          <th>Image</th>
-          <th>Price</th>
-          <th onclick="sortTable(3)">Location</th>
+      <hr />
+
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label
+          class="btn btn-secondary mr-1 active"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Sort by Name"
+        >
+          <input
+            type="radio"
+            name="options"
+            id="option1"
+            onclick="sortTable(0)"
+          />
+          Name
+        </label>
+        <label
+          class="btn btn-secondary mr-1"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Sort by Price"
+        >
+          <input
+            type="radio"
+            name="options"
+            id="option2"
+            onclick="sortTable(2)"
+          />
+          Price
+        </label>
+        <label
+          class="btn btn-secondary mr-1"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Sort by Location"
+        >
+          <input
+            type="radio"
+            name="options"
+            id="option3"
+            onclick="sortTable(3)"
+          />
+          Location
+        </label>
+        
+      </div>
+      <hr />
+      <table class="table table-sm table-striped table-bordered" id="userdata">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">
+              Name
+            </th>
+            <th>
+              Image
+            </th>
+            <th scope="col">
+              Price
+            </th>
+            <th scope="col">
+              Location
+            </th>
+          </tr>
         </thead>
         <tbody></tbody>
       </table>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="src/js_nh_b.js"></script> 
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="src/js_nh_b.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.js"></script>
+    <script>
+      function convert(input) {
+        return moment(input, 'HH:mm:ss').format('h:mm:ss A');
+      }
+
+      var d = new Date();
+      var localdate =
+        d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
+      var cTime = convert(localdate);
+      //console.log(cTime); *debugging
+      $('#currentdate').text(cTime);
+    </script>
   </body>
 </html>

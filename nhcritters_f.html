@@ -12,15 +12,17 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    
   </head>
 
   <body>
     <div class="jumbotron">
-      <h1 class="display-4">Live Fish Map - Northern Hemisphere</h1>
+      <h1 class="display-4">Live Fish Map</h1>
+      <p class="lead">Northern Hemisphere</p>
       <hr class="my-4" />
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="index.html">Critters</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,9 +36,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="nhcritters_f.html"
-              >Northern Fish</a
-            >
+            <a class="nav-item nav-link" href="nhcritters_f.html">Northern Fish</a>
             <a class="nav-item nav-link" href="#">Northern Bugs</a>
             <a class="nav-item nav-link" href="#">Southern Fish</a>
             <a class="nav-item nav-link" href="#">Southern Bugs</a>
@@ -47,9 +47,8 @@
 
     <div class="container">
       <hr />
-      <h4 class="text-left">
-        Fish Available At Time: <label id="currentdate"></label>
-      </h4>
+      <h3 class="text-left col"> Fish Available Now:  <span id="currentdate"></span> </h3>
+      
 
       <hr />
       <a
@@ -59,8 +58,14 @@
         >Refresh</a
       >
       <hr />
+      
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-secondary mr-1 active" data-toggle="tooltip" data-placement="bottom" title="Sort by Name">
+        <label
+          class="btn btn-secondary mr-1 active"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Sort by Name"
+        >
           <input
             type="radio"
             name="options"
@@ -69,7 +74,12 @@
           />
           Name
         </label>
-        <label class="btn btn-secondary mr-1" data-toggle="tooltip" data-placement="bottom" title="Sort by Price">
+        <label
+          class="btn btn-secondary mr-1"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Sort by Price"
+        >
           <input
             type="radio"
             name="options"
@@ -78,7 +88,12 @@
           />
           Price
         </label>
-        <label class="btn btn-secondary mr-1" data-toggle="tooltip" data-placement="bottom" title="Sort by Location">
+        <label
+          class="btn btn-secondary mr-1"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Sort by Location"
+        >
           <input
             type="radio"
             name="options"
@@ -87,11 +102,16 @@
           />
           Location
         </label>
-        <label class="btn btn-secondary mr-1" data-toggle="tooltip" data-placement="bottom" title="Sort by Size (Shadow : 1-6)">
+        <label
+          class="btn btn-secondary mr-1"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Sort by Size (Shadow : 1-6)"
+        >
           <input
             type="radio"
             name="options"
-            id="option4" 
+            id="option4"
             onclick="sortTable(4)"
           />
           Size
@@ -138,5 +158,22 @@
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="src/js_nh_f.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.js"></script>
+    <script>
+      function convert(input) {
+    return moment(input, 'HH:mm:ss').format('h:mm:ss A');}
+    
+    var d = new Date();
+    var localdate =
+      d.getHours() +
+      ':' +
+      d.getMinutes() +
+      ':' +
+      d.getSeconds();
+    var cTime = convert(localdate);
+    //console.log(cTime); *debugging
+    $('#currentdate').text(cTime);
+
+    </script>
   </body>
 </html>

@@ -17,10 +17,10 @@ $.ajax({
       ':' +
       d.getMinutes();
     var c = JSON.stringify(localdate);
-    console.log(localdate);
-    $('#currentdate').text(c);
+    // console.log(localdate); *debugging
+    
     var h = JSON.stringify(d.getHours());
-    console.log(h);
+    // console.log(h); *debugging
     switch (h) {
       case '1':
         h = '01';
@@ -50,9 +50,9 @@ $.ajax({
         h = '09';
         break;
     }
-    console.log(h);
+    //console.log(h); * debugging
     var m = d.getMonth() + 1;
-    console.log(m);
+    //console.log(m); *debugging
 
     var sMonth;
     switch (m) {
@@ -93,11 +93,11 @@ $.ajax({
         sMonth = 'Dec';
         break;
     }
-    console.log(sMonth);
+    //console.log(sMonth); *debugging
 
     $(data.fish).each(function (index, value) {
       if (value.time.indexOf(h) > -1 && value.month.indexOf(sMonth) > -1) {
-        console.log(value.name);
+        //console.log(value.name); *debugging
         var iPrice = Number(value.price);
         var tblRow =
           '<tr>' +
