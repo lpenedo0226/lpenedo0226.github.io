@@ -48,7 +48,9 @@
 
     <div class="container">
       <hr />
-      <h3 class="text-left col"> Bugs Available Now:  <span id="currentdate"></span> </h3>
+      <h3 class="text-left col"> Bugs Available Now: </h3>
+      <h4 class="text-left col"><span class="border-top" id="currenttime"></span></h4>
+      <h4 class="text-left col"><span class="border-top" id="currentdate"></span></h4>
 
       <hr />
       <a
@@ -148,15 +150,24 @@
     return moment(input, 'HH:mm:ss').format('h:mm:ss A');}
     
     var d = new Date();
-    var localdate =
+    var mTime =
       d.getHours() +
       ':' +
       d.getMinutes() +
       ':' +
       d.getSeconds();
-    var cTime = convert(localdate);
+    var cTime = convert(mTime);
     //console.log(cTime); *debugging
-    $('#currentdate').text(cTime);
+    var cDate =
+      (d.getMonth() +
+      1) +
+      '/' +
+      d.getDate() +
+      '/' +
+      d.getFullYear();
+      //console.log(cDate); *debugging
+    $('#currenttime').text(cTime);
+    $('#currentdate').text(cDate);
 
     </script>
   </body>
