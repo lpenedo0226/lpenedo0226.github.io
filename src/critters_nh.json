@@ -7,7 +7,7 @@
          "price": "3000",
          "location": "Flying",
          "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Apr","May","Jun","Jul","Aug","Sept"],
          "rarity":"scarce"
       },
       {
@@ -17,8 +17,711 @@
          "location": "Rotten Food",
          "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
          "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
-         "rarity":"scarce"
+         "rarity":"common"
 
+      },
+      {
+         "name":"Atlas Moth",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Icon-atlasmoth.png",
+         "price": "3000",
+         "location": "On Trees",
+         "time": ["07","08","09","10","11","12","13","14","15","16"],
+         "month": ["Apr","May","Jun","Jul","Aug","Sept"],
+         "rarity":"fairly common"
+      },
+      {
+         "name":"Bagworm",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/81/NH-Icon-bagworm.png",
+         "price": "600",
+         "location": "Shaking Trees",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Banded Dragonfly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/NH-Icon-bandeddragonfly.png",
+         "price": "4500",
+         "location": "Flying",
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
+         "month": ["May","Jun","Jul","Aug","Sept","Oct"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Bell Cricket",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-bellcricket.png",
+         "price": "430",
+         "location": "On the Ground",
+         "time": ["17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Sept","Oct"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Blue Weevil Beetle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f5/NH-Icon-blueweevilbeetle.png",
+         "price": "800",
+         "location": "On Trees (Coconut?)",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jul","Aug"],
+         "rarity":"unknown"
+      },
+      {
+         "name":"Brown Cicada",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/NH-Icon-browncicada.png",
+         "price": "250",
+         "location": "On Trees",
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
+         "month": ["Jul","Aug"],
+         "rarity":"common"
+      },
+      {
+         "name":"Centipede",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/30/NH-Icon-centipede.png",
+         "price": "300",
+         "location": "Hitting Rocks",
+         "time": ["16","17","18","19","20","21","22","23"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Sept","Oct","Nov","Dec"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Cicada Shell",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/97/NH-Icon-cicadashell.png",
+         "price": "10",
+         "location": "On Trees",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jul","Aug"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Citrus Long-Horned Beetle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-citruslonghornedbeetle.png",
+         "price": "350",
+         "location": "On Tree Stumps",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "rarity":"unknown"
+      },
+      {
+         "name":"Common Bluebottle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5e/NH-Icon-commonbluebottle.png",
+         "price": "300",
+         "location": "Flying",
+         "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["Apr","May","Jun","Jul","Aug"],
+         "rarity":"common"
+      },
+      {
+         "name":"Common Butterfly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3a/NH-Icon-commonbutterfly.png",
+         "price": "160",
+         "location": "Flying",
+         "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Sept","Oct","Nov","Dec"],
+         "rarity":"common"
+      },
+      {
+         "name":"Cricket",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7a/NH-Icon-cricket.png",
+         "price": "130",
+         "location": "On the Ground",
+         "time": ["17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Sept","Oct","Nov"],
+         "rarity":"common"
+      },
+      {
+         "name":"Cyclommatus Stag",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/17/NH-Icon-cyclommatusstag.png",
+         "price": "8000",
+         "location": "On Trees (Coconut)",
+         "time": ["17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jul","Aug"],
+         "rarity":"unknown"
+      },
+      {
+         "name":"Damselfly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/16/NH-Icon-damselfly.png",
+         "price": "500",
+         "location": "Flying",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jan","Feb","Nov","Dec"],
+         "rarity":"common"
+      },
+      {
+         "name":"Darner Dragonfly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/70/NH-Icon-darnerdragonfly.png",
+         "price": "230",
+         "location": "Flying",
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
+         "month": ["Apr","May","Jun","Jul","Aug","Sept","Oct"],
+         "rarity":"Fairly Common"
+      },
+      {
+         "name":"Diving Beetle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c5/NH-Icon-divingbeetle.png",
+         "price": "800",
+         "location": "On Ponds and Rivers",
+         "time": ["08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["May","Jun","Jul","Aug","Sept"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Drone Beetle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-dronebeetle.png",
+         "price": "200",
+         "location": "On Trees",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jun","Jul","Aug"],
+         "rarity":"common"
+      },
+      {
+         "name":"Dung Beetle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/NH-Icon-dungbeetle.png",
+         "price": "3000",
+         "location": "On the Ground (Rolling Snowballs)",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jan","Feb","Dec"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Earth-boring Dung Beetle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Icon-earthboringdungbeetle.png",
+         "price": "300",
+         "location": "On the Ground",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jul","Aug","Sept"],
+         "rarity":"unknown"
+      },
+      {
+         "name":"Emperor Butterfly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5e/NH-Icon-emperorbutterfly.png",
+         "price": "4000",
+         "location": "Flying",
+         "time": ["17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jan","Feb","Mar","Jun","Jul","Aug","Sept","Dec"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Evening Cicada",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/16/NH-Icon-eveningcicada.png",
+         "price": "550",
+         "location": "On Trees",
+         "time": ["04","05","06","07","08","16","17","18","19"],
+         "month": ["Jul","Aug"],
+         "rarity":"unknown"
+      },
+      {
+         "name":"Firefly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ae/NH-Icon-firefly.png",
+         "price": "300",
+         "location": "Flying",
+         "time": ["19","20","21","22","23","24","01","02","03","04"],
+         "month": ["Jun"],
+         "rarity":"common"
+      },
+      {
+         "name":"Flea",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/92/NH-Icon-flea.png",
+         "price": "70",
+         "location": "Villager's Heads",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Apr","May","Jun","Jul","Aug","Sept","Oct","Nov"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Fly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Icon-fly.png",
+         "price": "60",
+         "location": "On Trash Items",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "rarity":"common"
+      },
+      {
+         "name":"Giant Cicada",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/58/NH-Icon-giantcicada.png",
+         "price": "500",
+         "location": "On Trees",
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
+         "month": ["Jul","Aug"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Giant Stag",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/25/NH-Icon-giantstag.png",
+         "price": "10000",
+         "location": "On Trees",
+         "time": ["23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jul","Aug"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Giant Water Bug",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/NH-Icon-giantwaterbug.png",
+         "price": "2000",
+         "location": "On Ponds and Rivers",
+         "time": ["19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "rarity":"common"  
+      },
+      {
+         "name":"Giraffe Stag",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-giraffestag.png",
+         "price": "12000",
+         "location": "On Trees (Coconut?)",
+         "time": ["17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jul","Aug"],
+         "rarity":"unknown"
+      },
+      {
+         "name":"Golden Stag",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-goldenstag.png",
+         "price": "12000",
+         "location": "On Trees (Coconut)",
+         "time": ["17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jul","Aug"],
+         "rarity":"Rare"
+      },
+      {
+         "name":"Goliath Beetle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5b/NH-Icon-goliathbeetle.png",
+         "price": "8000",
+         "location": "On Trees (Coconut)",
+         "time": ["17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jun","Jul","Aug","Sept"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Grasshopper",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/56/NH-Icon-grasshopper.png",
+         "price": "160",
+         "location": "On the Ground",
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
+         "month": ["Jul","Aug","Sept"],
+         "rarity":"fairly common"
+      },
+      {
+         "name":"Great Purple Emperor",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/27/NH-Icon-greatpurpleemperor.png",
+         "price": "3000",
+         "location": "Flying",
+         "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["May","Jun","Jul","Aug"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Hermit Crab",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Icon-hermitcrab.png",
+         "price": "1000",
+         "location": "Beach Disguised as Shells",
+         "time": ["19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Honeybee",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/NH-Icon-honeybee.png",
+         "price": "200",
+         "location": "Flying",
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
+         "month": ["Mar","Apr","May","Jun","Jul"],
+         "rarity":"common"
+      },
+      {
+         "name":"Horned Atlas",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Icon-hornedatlas.png",
+         "price": "8000",
+         "location": "On Trees (Coconut)",
+         "time": ["17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jul","Aug"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Horned Dynastid",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ef/NH-Icon-horneddynastid.png",
+         "price": "1350",
+         "location": "On Trees",
+         "time": ["17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jul","Aug"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Horned Elephant",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Icon-hornedelephant.png",
+         "price": "8000",
+         "location": "On Trees (Coconut)",
+         "time": ["17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jul","Aug"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Horned Hercules",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c2/NH-Icon-hornedhercules.png",
+         "price": "12000",
+         "location": "On Trees (Coconut)",
+         "time": ["17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jul","Aug"],
+         "rarity":"rare"
+      },
+      {
+         "name":"Jewel Beetle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-jewelbeetle.png",
+         "price": "2400",
+         "location": "On Tree Stumps",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Apr","May","Jun","Jul","Aug"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Ladybug",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/18/NH-Icon-ladybug.png",
+         "price": "200",
+         "location": "On Flowers",
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
+         "month": ["Mar","Apr","May","Jun","Oct"],
+         "rarity":"common"
+      },
+      {
+         "name":"Long Locust",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ef/NH-Icon-longlocust.png",
+         "price": "200",
+         "location": "On the Ground",
+         "time": ["08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["Apr","May","Jun","Jul","Aug","Sept","Oct","Nov"],
+         "rarity":"fairly common"
+      },
+      {
+         "name":"Madagascan Sunset Moth",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7d/NH-Icon-madagascansunsetmoth.png",
+         "price": "2500",
+         "location": "Flying",
+         "time": ["08","09","10","11","12","13","14","15","16"],
+         "month": ["Apr","May","Jun","Jul","Aug","Sept"],
+         "rarity":"fairly common"
+      },
+      {
+         "name":"Man-faced Stink Bug",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Icon-manfacedstinkbug.png",
+         "price": "1000",
+         "location": "On Flowers",
+         "time": ["19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Mar","Apr","May","Jun","Jul","Aug","Sept","Oct"],
+         "rarity":"fairly common"
+      },
+      {
+         "name":"Mantis",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/00/NH-Icon-mantis.png",
+         "price": "430",
+         "location": "On Flowers",
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
+         "month": ["Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Migratory Locust",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e4/NH-Icon-migratorylocust.png",
+         "price": "600",
+         "location": "On the Ground",
+         "time": ["08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["Aug","Sept","Oct","Nov"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Miyama Stag",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1b/NH-Icon-miyamastag.png",
+         "price": "1000",
+         "location": "On Trees",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jul","Aug"],
+         "rarity":"common"
+      },
+      {
+         "name":"Mole Cricket",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/00/NH-Icon-molecricket.png",
+         "price": "500",
+         "location": "Underground",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jan","Feb","Mar","Apr","May","Nov","Dec"],
+         "rarity":"unknown"
+      },
+      {
+         "name":"Monarch Butterfly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-monarchbutterfly.png",
+         "price": "140",
+         "location": "Flying",
+         "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17"],
+         "month": ["Sept","Oct","Nov"],
+         "rarity":"fairly common"
+      },
+      {
+         "name":"Mosquito",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/NH-Icon-mosquito.png",
+         "price": "130",
+         "location": "Flying",
+         "time": ["17","18","19","20","21","22","23","24","01","02","03","04"],
+         "month": ["Jun","Jul","Aug","Sept"],
+         "rarity":"fairly common"
+      },
+      {
+         "name":"Moth",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Icon-moth.png",
+         "price": "130",
+         "location": "Flying by Light",
+         "time": ["19","20","21","22","23","24","01","02","03","04"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "rarity":"common"
+      },
+      {
+         "name":"Orchid Mantis",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/NH-Icon-orchidmantis.png",
+         "price": "2400",
+         "location": "On Flowers (White)",
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
+         "month": ["Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Paper Kite Butterfly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Icon-paperkitebutterfly.png",
+         "price": "1000",
+         "location": "Flying",
+         "time": ["08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "rarity":"fairly common"
+      },
+      {
+         "name":"Peacock Butterfly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-peacockbutterfly.png",
+         "price": "2500",
+         "location": "Flying by Hybrid Flowers",
+         "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["Mar","Apr","May","Jun"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Pill bug",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c5/NH-Icon-pillbug.png",
+         "price": "250",
+         "location": "Hitting Rocks",
+         "time": ["23","24","01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Sept","Oct","Nov","Dec"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Pondskater",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f4/NH-Icon-pondskater.png",
+         "price": "130",
+         "location": "On Ponds and Rivers",
+         "time": ["08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["May","Jun","Jul","Aug","Sept"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Queen Alexandra's Birdwing",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b8/NH-Icon-queenalexandrasbirdwing.png",
+         "price": "4000",
+         "location": "Flying",
+         "time": ["08","09","10","11","12","13","14","15","16"],
+         "month": ["May","Jun","Jul","Aug","Sept"],
+         "rarity":"unknown"
+      },
+      {
+         "name":"Rainbow Stag",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-rainbowstag.png",
+         "price": "6000",
+         "location": "On Trees",
+         "time": ["19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jun","Jul","Aug","Sept"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Rajah Brooke's Birdwing",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Icon-rajahbrookesbirdwing.png",
+         "price": "2500",
+         "location": "Flying",
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
+         "month": ["Jan","Feb","Apr","May","Jun","Jul","Aug","Sept","Dec"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Red Dragonfly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/eb/NH-Icon-reddragonfly.png",
+         "price": "180",
+         "location": "Flying",
+         "time": ["08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["Sept","Oct"],
+         "rarity":"common"
+      },
+      {
+         "name":"Rice Grasshopper",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Icon-ricegrasshopper.png",
+         "price": "160",
+         "location": "On the Ground",
+         "time": ["08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["Aug","Sept","Oct","Nov"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Robust Cicada",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-robustcicada.png",
+         "price": "300",
+         "location": "On Trees",
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
+         "month": ["Jul","Aug"],
+         "rarity":"fairly common"
+
+      },
+      {
+         "name":"Rosalia Batesi Beetle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e0/NH-Icon-rosaliabatesibeetle.png",
+         "price": "3000",
+         "location": "On Tree Stumps",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["May","Jun","Jul","Aug","Sept"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Saw Stag",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/48/NH-Icon-sawstag.png",
+         "price": "2000",
+         "location": "On Trees",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jul","Aug"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Scarab Beetle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4c/NH-Icon-scarabbeetle.png",
+         "price": "10000",
+         "location": "On Trees",
+         "time": ["23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jul","Aug"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Scorpion",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/34/NH-Icon-scorpion.png",
+         "price": "8000",
+         "location": "On the Ground",
+         "time": ["19","20","21","22","23","24","01","02","03","04"],
+         "month": ["May","Jun","Jul","Aug","Sept","Oct"],
+         "rarity":"rare"
+      },
+      {
+         "name":"Snail",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b1/NH-Icon-snail.png",
+         "price": "250",
+         "location": "On Rocks (Rain)",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "rarity":"scarce"
+      },
+      {
+         "name":"Spider",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/NH-Icon-spider.png",
+         "price": "600",
+         "location": "Shaking Trees",
+         "time": ["19","20","21","22","23","24","01","02","03","04","05","06","07","08"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Stinkbug",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/80/NH-Icon-stinkbug.png",
+         "price": "120",
+         "location": "On Flowers",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Mar","Apr","May","Jun","Jul","Aug","Sept","Oct"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Tarantula",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/NH-Icon-tarantula.png",
+         "price": "8000",
+         "location": "On the Ground",
+         "time": ["19","20","21","22","23","24","01","02","03","04"],
+         "month": ["Jan","Feb","Mar","Apr","Nov","Dec"],
+         "rarity":"rare"
+      },
+      {
+         "name":"Tiger Beetle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Icon-tigerbeetle.png",
+         "price": "1500",
+         "location": "On the Ground",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Tiger Butterfly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Icon-tigerbutterfly.png",
+         "price": "240",
+         "location": "Flying",
+         "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["Mar","Apr","May","Jun","Jul","Aug","Sept"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Violin Beetle",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Icon-violinbeetle.png",
+         "price": "450",
+         "location": "On Tree Stumps",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["May","Jun","Sept","Oct","Nov"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Walker Cicada",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ec/NH-Icon-walkercicada.png",
+         "price": "400",
+         "location": "On Trees",
+         "time": ["08","09","10","11","12","13","14","15","16","17"],
+         "month": ["Aug","Sept"],
+         "rarity":"uncommon (jun-aug) | scarce (sep)"
+      },
+      {
+         "name":"Walking Leaf",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cb/NH-Icon-walkingleaf.png",
+         "price": "600",
+         "location": "Under Trees Disguised as Leafs",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jul","Aug","Sept"],
+         "rarity":"scarce (clear weather) | uncommon (rain)"
+      },
+      {
+         "name":"Walking Stick",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/62/NH-Icon-walkingstick.png",
+         "price": "600",
+         "location": "On Trees",
+         "time": ["04","05","06","07","08","17","18","19"],
+         "month": ["Jul","Aug","Sept","Oct","Nov"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Wasp",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/NH-Icon-wasp.png",
+         "price": "2500",
+         "location": "Shaking Trees",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "rarity":"unknown"
+      },
+      {
+         "name":"Wharf Roach",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5d/NH-Icon-wharfroach.png",
+         "price": "200",
+         "location": "On Beach Rocks",
+         "time": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "rarity":"uncommon"
+      },
+      {
+         "name":"Yellow Butterfly",
+         "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fa/NH-Icon-yellowbutterfly.png",
+         "price": "160",
+         "location": "Flying",
+         "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19"],
+         "month": ["Mar","Apr","May","Jun","Sept","Oct"],
+         "rarity":"common"
       }
 
 
