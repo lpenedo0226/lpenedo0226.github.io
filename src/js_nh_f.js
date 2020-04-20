@@ -5,9 +5,7 @@ $.ajax({
   cache: false,
   success: function (data) {
     var d = new Date();
-    
     // console.log(localdate); *debugging
-    
     var h = JSON.stringify(d.getHours());
     // console.log(h); *debugging
     switch (h) {
@@ -42,7 +40,6 @@ $.ajax({
     //console.log(h); * debugging
     var m = d.getMonth() + 1;
     //console.log(m); *debugging
-
     var sMonth;
     switch (m) {
       case 1:
@@ -83,7 +80,6 @@ $.ajax({
         break;
     }
     //console.log(sMonth); *debugging
-
     $(data.fish).each(function (index, value) {
       if (value.time.indexOf(h) > -1 && value.month.indexOf(sMonth) > -1) {
         //console.log(value.name); *debugging
@@ -109,6 +105,12 @@ $.ajax({
       }
     });
   },
+  beforeSend: function(){
+    $('#loader').show()
+},
+complete: function(){
+  $('#loader').hide();
+}
 });
 
 function sortTable(n) {

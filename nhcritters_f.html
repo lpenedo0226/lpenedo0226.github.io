@@ -68,7 +68,7 @@
         >Refresh Clock</a
       >
       <hr />
-
+      
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
         <label
           class="btn btn-secondary mr-1 active"
@@ -129,6 +129,10 @@
       </div>
 
       <hr />
+      
+      <div id="loader" class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
       <table class="table table-sm table-striped table-bordered" id="userdata">
         <thead class="thead-dark">
           <tr>
@@ -151,6 +155,7 @@
         </thead>
         <tbody></tbody>
       </table>
+      
     </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
