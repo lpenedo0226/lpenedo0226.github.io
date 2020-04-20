@@ -60,7 +60,7 @@
       >
       <hr />
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-secondary mr-1 active">
+        <label class="btn btn-secondary mr-1 active" data-toggle="tooltip" data-placement="bottom" title="Sort by Name">
           <input
             type="radio"
             name="options"
@@ -69,7 +69,7 @@
           />
           Name
         </label>
-        <label class="btn btn-secondary mr-1">
+        <label class="btn btn-secondary mr-1" data-toggle="tooltip" data-placement="bottom" title="Sort by Price">
           <input
             type="radio"
             name="options"
@@ -78,7 +78,7 @@
           />
           Price
         </label>
-        <label class="btn btn-secondary mr-1">
+        <label class="btn btn-secondary mr-1" data-toggle="tooltip" data-placement="bottom" title="Sort by Location">
           <input
             type="radio"
             name="options"
@@ -87,14 +87,14 @@
           />
           Location
         </label>
-        <label class="btn btn-secondary mr-1">
+        <label class="btn btn-secondary mr-1" data-toggle="tooltip" data-placement="bottom" title="Sort by Size (Shadow : 1-6)">
           <input
             type="radio"
             name="options"
-            id="option4"
+            id="option4" 
             onclick="sortTable(4)"
           />
-          Shadow Size
+          Size
         </label>
       </div>
       <hr />
@@ -114,7 +114,7 @@
               Location
             </th>
             <th scope="col">
-              Shadow Size
+              Size
             </th>
           </tr>
         </thead>
