@@ -18,7 +18,7 @@ $.ajax({
       d.getMinutes();
     var c = JSON.stringify(localdate);
     console.log(localdate);
-    $('#currentdate').text(c);
+    
     var h = JSON.stringify(d.getHours());
     console.log(h);
     switch (h) {

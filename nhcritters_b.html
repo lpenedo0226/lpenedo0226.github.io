@@ -48,9 +48,7 @@
 
     <div class="container">
       <hr />
-      <h3 class="text-left col">
-        Bugs Available Now: <span id="currentdate"></span>
-      </h3>
+      <h3 class="text-left col"> Bugs Available Now:  <span id="currentdate"></span> </h3>
 
       <hr />
       <a
@@ -147,15 +145,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.js"></script>
     <script>
       function convert(input) {
-        return moment(input, 'HH:mm:ss').format('h:mm:ss A');
-      }
+    return moment(input, 'HH:mm:ss').format('h:mm:ss A');}
+    
+    var d = new Date();
+    var localdate =
+      d.getHours() +
+      ':' +
+      d.getMinutes() +
+      ':' +
+      d.getSeconds();
+    var cTime = convert(localdate);
+    //console.log(cTime); *debugging
+    $('#currentdate').text(cTime);
 
-      var d = new Date();
-      var localdate =
-        d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
-      var cTime = convert(localdate);
-      //console.log(cTime); *debugging
-      $('#currentdate').text(cTime);
     </script>
   </body>
 </html>
