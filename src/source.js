@@ -172,7 +172,7 @@ $.ajax({
 //AJAX JSON call bugs southern
 
 $.ajax({
-  url: 'src/critters_nh.json',
+  url: 'src/critters_sh.json',
   dataType: 'json',
   type: 'get',
   cache: false,
