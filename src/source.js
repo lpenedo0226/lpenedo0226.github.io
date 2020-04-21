@@ -31,6 +31,9 @@ switch (h) {
   case '9':
     h = '09';
     break;
+  case '0':
+    h='24';
+    break;
 }
 
 //Convert Month to String Reference
