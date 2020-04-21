@@ -736,7 +736,7 @@
           "location": "Sea",
           "shadowsize": "2",
           "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21"],
-          "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+          "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
           "rarity": "fairly uncommon"
 
        },
@@ -748,7 +748,7 @@
           "location": "River",
           "shadowsize": "2",
           "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
-          "month": ["May","Jun","Jul","Aug","Sep","Oct"],
+          "month": ["May","Jun","Jul","Aug","Sept","Oct"],
           "rarity": "uncommon"
        },
        
@@ -759,7 +759,7 @@
         "location": "River",
         "shadowsize": "6",
         "time": ["04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21"],
-        "month": ["Jun","Jul","Aug","Sep"],
+        "month": ["Jun","Jul","Aug","Sept"],
         "rarity": "rare"
        },
        
@@ -770,7 +770,7 @@
         "location": "River",
         "shadowsize": "4",
         "time": ["16","17","18","19","20","21","22","23","24","01","02","03","04","05","06","07","08","09"],
-        "month": ["Jun","Jul","Aug","Sep"],
+        "month": ["Jun","Jul","Aug","Sept"],
         "rarity": "rare"
        },
        
