@@ -12,11 +12,13 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
 
   <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <!-- NavBar BEGIN-->
+     <div class="container my-2">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Critters</a>
         <button
           class="navbar-toggler"
@@ -31,58 +33,65 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
+            <div class="dropdown-divider"></div>
             <a class="nav-item nav-link" href="nh_fish_map.html">Northern Fish</a>
             <a class="nav-item nav-link" href="nh_bugs_map.html">Northern Bugs</a>
+            <div class="dropdown-divider"></div>
             <a class="nav-item nav-link" href="sh_fish_map.html">Southern Fish</a>
             <a class="nav-item nav-link" href="sh_bugs_map.html">Southern Bugs</a>
+            <div class="dropdown-divider"></div>
+            <a class="nav-item nav-link" href="#">Database</a>
+            <div class="dropdown-divider"></div>
+            <a class="nav-item nav-link" href="about.html">About</a>
           </div>
         </div>
       </nav>
     </div>
+<!-- NavBar - END -->
     
 
-    <div class="container my-2">
-      <hr class = "my-2" />
-      <div class ="row">
-        <div class ="col-md">
-        <h1 class="display-2 float-left">Live Fish Tracker</h1>
+    <div class="container">
+      
+        <div class ="col-sm" align=center>
+        <h1 class="display-6"> Live Fish Tracker</h1> <img src="src/fishicon.jpg" class="rounded-circle" width="100" height="100" alt="fishicon">
         </div>
-        <div class ="col-md">
-          <img src="src/fishicon.jpg" class="rounded-circle float-right" width="120" height="120" alt="fishicon">
-        </div>
-      </div>
-      <hr class = "my-2" />
-      <div class="row">
-        <div class="col-sm">
-          <h3>S. Hemisphere</h3><h1 class="fishcount"></h1>
-        </div>
-        <div class="col-sm">
-          <h3><span id="currenttime"></span></h3>
-        </div>
-        <div class="col-sm">
-          <h3><span id="currentdate"></span></h3>
-        </div>
-        <div class="col-sm">
-          <a class="btn btn-primary btn-lg btn-block" href="sh_fish_map.html" role="button"> <svg class="bi bi-arrow-counterclockwise" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" d="M12.83 6.706a5 5 0 00-7.103-3.16.5.5 0 11-.454-.892A6 6 0 112.545 5.5a.5.5 0 11.91.417 5 5 0 109.375.789z" clip-rule="evenodd"/>
-            <path fill-rule="evenodd" d="M7.854.146a.5.5 0 00-.708 0l-2.5 2.5a.5.5 0 000 .708l2.5 2.5a.5.5 0 10.708-.708L5.707 3 7.854.854a.5.5 0 000-.708z" clip-rule="evenodd"/>
-          </svg>Refresh Clock </a>
-        </div>
-      </div>
+        <br />
     </div>
 
+      
+      <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h5 class="border-right border-bottom text-center">Southern Hemisphere</h5></h1>
+        </div>
+        <div class="col-sm">
+          <h5 class="border-right border-bottom text-center"><span id="currenttime"></span></h5>
+        </div>
+        <div class="col-sm">
+          <h5 class="border-right border-bottom text-center"><span id="currentdate"></span></h5>
+        </div>
+      </div>
+        
+      </div>
+    
+     
+    
+    
+    
     <div class="container">
       <div class="row">
-          <div class="col-sm"><strong>Tap Table Headers to Sort </strong><svg class="bi bi-caret-down-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 01.753 1.659l-4.796 5.48a1 1 0 01-1.506 0z"/>
-          </svg></div>
+          
+          <div class="col-sm my-2" align=right>
+            <a class="btn btn-primary btn-block" href="sh_fish_map.html" role="button"><svg class="bi bi-arrow-counterclockwise" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M12.83 6.706a5 5 0 00-7.103-3.16.5.5 0 11-.454-.892A6 6 0 112.545 5.5a.5.5 0 11.91.417 5 5 0 109.375.789z" clip-rule="evenodd"/>
+              <path fill-rule="evenodd" d="M7.854.146a.5.5 0 00-.708 0l-2.5 2.5a.5.5 0 000 .708l2.5 2.5a.5.5 0 10.708-.708L5.707 3 7.854.854a.5.5 0 000-.708z" clip-rule="evenodd"/>
+            </svg> Refresh Clock </a>
+          </div>
       </div>
       </div>
-
-    
     
     <div class="container">
-    <table class="table table-sm table-striped table-bordered" id="userdatafish_sh">
+    <table class="table table-sm table-dark table-striped table-bordered table-hover" id="userdatafish_sh">
       <thead class = "thead-dark">
         <tr>
           <th>Name<svg class="bi bi-chevron-expand" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

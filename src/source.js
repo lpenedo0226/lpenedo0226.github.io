@@ -92,15 +92,15 @@ $.ajax({
       if (fish.time.indexOf(h) > -1 && fish.month.indexOf(sMonth) > -1) {
 
         var tableRow =
-          '<tr><td>' +
+          '<tr><td class="pt-5">' +
           fish.name +
           '</td><td> <img src=' +
           fish.image +
-          ' class="img-fluid" alt="responsive image"></td><td>' +
+          ' class="img-fluid" alt="responsive image"></td><td class="pt-5">' +
           fish.price +
-          '</td><td>' +
+          '</td><td class="pt-5">' +
           fish.location +
-          '</td><td>' +
+          '</td><td class="pt-5">' +
           fish.shadowsize +
           '</td></tr>';
         $(tableRow).appendTo('#userdatafish_nh tbody');
@@ -123,17 +123,17 @@ $.ajax({
       if (fish.time.indexOf(h) > -1 && fish.month.indexOf(sMonth) > -1) {
 
         var tableRow =
-          '<tr><td>' +
+          '<tr><td class="pt-5">' +
           fish.name +
           '</td><td> <img src=' +
           fish.image +
-          ' class="img-fluid" alt="responsive image"></td><td>' +
+          ' class="img-fluid" alt="responsive image"></td><td class="pt-5">' +
           fish.price +
-          '</td><td>' +
+          '</td><td class="pt-5">' +
           fish.location +
-          '</td><td>' +
+          '</td><td class="pt-5">' +
           fish.shadowsize +
-          '</td></tr>';
+          '</td></tr class="pt-5">';
         $(tableRow).appendTo('#userdatafish_sh tbody');
         
       }
@@ -154,13 +154,13 @@ $.ajax({
       if (bug.time.indexOf(h) > -1 && bug.month.indexOf(sMonth) > -1) {
 
         var tableRow =
-          '<tr><td>' +
+          '<tr><td class="pt-5">' +
           bug.name +
           '</td><td> <img src=' +
           bug.image +
-          ' class="img-fluid" alt="responsive image"></td><td>' +
+          ' class="img-fluid" alt="responsive image"></td><td class="pt-5">' +
           bug.price +
-          '</td><td>' +
+          '</td><td class="pt-5">' +
           bug.location +
           '</td></tr>';
         $(tableRow).appendTo('#userdatabugs_nh tbody');
@@ -184,13 +184,13 @@ $.ajax({
       if (bug.time.indexOf(h) > -1 && bug.month.indexOf(sMonth) > -1) {
 
         var tableRow =
-          '<tr><td>' +
+          '<tr><td class="pt-5">' +
           bug.name +
           '</td><td> <img src=' +
           bug.image +
-          ' class="img-fluid" alt="responsive image"></td><td>' +
+          ' class="img-fluid" alt="responsive image"></td><td class="pt-5">' +
           bug.price +
-          '</td><td>' +
+          '</td><td class="pt-5">' +
           bug.location +
           '</td></tr>';
         $(tableRow).appendTo('#userdatabugs_sh tbody');
