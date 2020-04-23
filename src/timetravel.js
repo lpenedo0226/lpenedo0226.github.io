@@ -37,7 +37,7 @@ $.ajax({
     url: hemi,
     dataType: 'json',
     type: 'get',
-    cache: false,
+    cache: true,
     success: function (data) {
       $(data.bugs).each(function (index, bug) {
         if (bug.time.indexOf(hour) > -1 && bug.month.indexOf(month) > -1) {
@@ -70,7 +70,7 @@ $.ajax({
     url: hemi,
     dataType: 'json',
     type: 'get',
-    cache: false,
+    cache: true,
     success: function (data) {
       $(data.fish).each(function (index, fish) {
         if (fish.time.indexOf(hour) > -1 && fish.month.indexOf(month) > -1) {
