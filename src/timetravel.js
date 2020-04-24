@@ -8,6 +8,8 @@ $( document ).ready(function() {
     var hour;
     var hemi;
 
+    
+
 
 
 $("#month").on('change',function(){
@@ -26,11 +28,12 @@ $("#month").on('change',function(){
 
 //bug time button ajax table load function      
 
-$('#bugtimeload').click(function(){
-console.log(month);
+$('#crittertimeload').click(function(){
+
+/*    console.log(month);
 console.log(hour);
-console.log(hemi);
-var invalid = "-";
+console.log(hemi);*/
+$("#timeloadbug tbody").empty();
 
 
 $.ajax({
@@ -60,13 +63,10 @@ $.ajax({
     },
   });
 
-});
 
-
-//fish time button ajax table load funtion
-
-$('#fishtimeload').click(function(){
-$.ajax({
+  $("#timeloadfish tbody").empty();
+   
+  $.ajax({
     url: hemi,
     dataType: 'json',
     type: 'get',
@@ -94,7 +94,20 @@ $.ajax({
       }); 
     },
   });
+
+
 });
+
+
+
+
+
+
+
+
+
+
+
 
 
 

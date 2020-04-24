@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>Time Travel -  Critter Tracker</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
 
   <body>
@@ -135,13 +136,15 @@
 
     <div class="container my-2">
     <div class = "container btn-group" role="group">
-        <button id="bugtimeload" class = "btn btn-secondary border btn-success" data-toggle="collapse" data-target="#timeloadbug">Bugs</button>
-        <button id="fishtimeload" class = "btn y border btn-primary" data-toggle="collapse" data-target="#timeloadfish">Fish</button>
+        <button id="crittertimeload" class = "btn btn-secondary btn-lg btn-success"><strong>Load Critters</strong></button>
+        
     </div>
+    <hr class="my-2" />
     </div>
  
    <div class="container my-2">
-    <table class="table table-sm table-dark table-striped table-bordered table-hover collapse hide" id="timeloadbug">
+    <label for="#timeloadbug"><button class="btn btn-block btn-light" type="button" data-toggle="collapse" data-target="#timeloadbug"><strong>Hide/Show Bugs</strong></button></label>
+    <table class="table table-sm table-dark table-striped table-bordered table-hover collapse show" id="timeloadbug">
       <thead class = "thead-dark">
         <tr>
           <th>Name<svg class="bi bi-chevron-expand" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -162,7 +165,8 @@
     </table>
     
     <div class="container my-2">
-        <table class="table table-sm table-dark table-striped table-bordered table-hover collapse hide" id="timeloadfish">
+        <label for="#timeloadfish"><button class="btn btn-block btn-light" type="button" data-toggle="collapse" data-target="#timeloadfish"> <strong>Hide/Show Fish</strong></button></label>
+        <table class="table table-sm table-dark table-striped table-bordered table-hover collapse show" id="timeloadfish">
           <thead class = "thead-dark">
             <tr>
               <th>Name<svg class="bi bi-chevron-expand" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
